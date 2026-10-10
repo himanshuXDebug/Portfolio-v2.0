@@ -31,8 +31,8 @@ export const PROJECTS: Project[] = [
       "Real-Time Stock Inventory Reconciliation",
       "Dynamic Product Discounts & Sales Audits"
     ],
-    github: "https://github.com/himanshuXDebug/Retail-POS-System.git",
-    demo: "https://pos-retail-demo.vercel.app/",
+    github: "https://github.com/Himansu-Cog/Retail-Pos-System.git",
+    demo: null,
     featured: true
   },
   {
