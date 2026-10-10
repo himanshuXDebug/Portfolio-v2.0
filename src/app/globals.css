@@ -3,13 +3,21 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+
+    font-size: 16px;
+  }
+  @media (min-width: 1536px) {
+    html {
+      font-size: 18px;
+    }
+  }
   body {
     @apply bg-[#FAF8F5] text-[#1C1917] dark:bg-[#0D0D0D] dark:text-[#EDEDED] transition-colors duration-200 antialiased;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   }
 }
 
-/* Smooth custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
