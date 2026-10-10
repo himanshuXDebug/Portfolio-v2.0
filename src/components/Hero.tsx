@@ -6,7 +6,7 @@ interface HeroProps {
   showToast: (msg: string) => void;
 }
 
-const resumeUrl = '/assets/resume.pdf';
+const resumeUrl = '/resume.pdf';
 
 export default function Hero({ onOpenContact, showToast }: HeroProps) {
   return (
