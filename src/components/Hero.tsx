@@ -37,7 +37,6 @@ export default function Hero({ onOpenContact, showToast }: HeroProps) {
               </a>
               <a
                 href={resumeUrl}
-                download
                 rel="noopener noreferrer"
                 target="_blank"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-[#E5E0D8] dark:border-[#262626] bg-[#F2EFE9] dark:bg-[#161616] font-medium text-sm hover:border-[#C2410C] dark:hover:border-[#F97316] transition-colors"
